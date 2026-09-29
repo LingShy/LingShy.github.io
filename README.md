@@ -66,7 +66,9 @@ git push
 
 ## 自定义
 
-- **站点信息**（标题、作者、语言等）：编辑 [_config.yml](_config.yml) 的 `Site` 部分
+- **站点信息**（标题、作者、语言等）：编辑 [_config.yml](_config.yml) 的 `Site` 部分（语言已设为 `zh-CN`，界面菜单自动显示中文：首页 / 分类 / 标签 / 归档 / 关于）
 - **主题**：使用 [NexT](https://github.com/next-theme/hexo-theme-next) 主题，通过 npm 包 `hexo-theme-next` 安装，无需 themes 目录
+- **菜单**：在 [_config.next.yml](_config.next.yml) 的 `menu` 中增删菜单项
+- **标签 / 分类页**：对应 `source/tags/`、`source/categories/`（front-matter 中 `type: tags`、`type: categories`），`source/about/` 为关于页，可自行编辑
 - **主题配置**：在项目根目录创建 `_config.next.yml` 即可覆盖主题默认配置（如切换 Scheme：`scheme: Pisces`）
 - **每页文章数、URL 格式**：见 `_config.yml` 中 `index_generator`、`permalink` 配置
