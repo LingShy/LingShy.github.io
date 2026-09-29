@@ -1,6 +1,6 @@
 # LingShy.github.io
 
-基于 [Hexo](https://hexo.io/) 的个人博客，托管于 GitHub Pages，访问地址：[https://lingshy.github.io](https://lingshy.github.io)
+基于 [Hexo](https://hexo.io/) 的个人博客，使用 [NexT](https://theme-next.js.org/) 主题，托管于 GitHub Pages，访问地址：[https://lingshy.github.io](https://lingshy.github.io)
 
 ## 环境要求
 
@@ -67,5 +67,6 @@ git push
 ## 自定义
 
 - **站点信息**（标题、作者、语言等）：编辑 [_config.yml](_config.yml) 的 `Site` 部分
-- **主题**：当前使用默认主题 `landscape`（通过 npm 包 `hexo-theme-landscape` 安装），如需更换可修改 `_config.yml` 中的 `theme` 字段
+- **主题**：使用 [NexT](https://github.com/next-theme/hexo-theme-next) 主题，通过 npm 包 `hexo-theme-next` 安装，无需 themes 目录
+- **主题配置**：在项目根目录创建 `_config.next.yml` 即可覆盖主题默认配置（如切换 Scheme：`scheme: Pisces`）
 - **每页文章数、URL 格式**：见 `_config.yml` 中 `index_generator`、`permalink` 配置
